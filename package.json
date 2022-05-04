@@ -1,0 +1,43 @@
+{
+  "name": "xueyan-react-drawer",
+  "version": "1.0.0",
+  "author": "xueyan-site <xueyan@xueyan.site>",
+  "license": "LGPL-3.0",
+  "description": "react drawer component",
+  "main": "dist/node",
+  "types": "dist/def",
+  "module": "dist/web",
+  "keywords": [
+    "drawer",
+    "react",
+    "xueyan",
+    "component",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xueyan-site/xueyan-react-drawer.git"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "start": "xt start",
+    "build": "xt build"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.0",
+    "xueyan-react-style": "^1.2.4",
+    "xueyan-react-transition": "^1.0.8"
+  },
+  "peerDependencies": {
+    "classnames": "^2.3.0",
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": ">=16.8.0",
+    "classnames": "^2.3.0",
+    "react": ">=16.8.0",
+    "typescript": "^4.0.0"
+  }
+}
