@@ -1,5 +1,5 @@
 .xrdrawermask {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   top: 0;
   left: 0;
@@ -8,7 +8,7 @@
   background-color: var(--mask);
 }
 .xrdrawerconent {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   background-color: var(--base);
   color: var(--font);
