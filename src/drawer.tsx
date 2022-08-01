@@ -1,8 +1,8 @@
 import React, { forwardRef, useRef, useImperativeHandle, Fragment } from 'react'
 import cn from 'classnames'
 import styles from './drawer.scss'
-import { SlideTransition, FadeTransition } from 'xueyan-react-transition'
-import type { SlideTransitionProps, FadeTransitionProps } from 'xueyan-react-transition'
+import { SlideTransition, FadeTransition } from 'ark-transition'
+import type { SlideTransitionProps, FadeTransitionProps } from 'ark-transition'
 
 export type DrawerOnChange = (
   value: boolean

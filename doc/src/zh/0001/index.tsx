@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Article, Segment } from 'xueyan-react-markdown'
 import { Playground } from 'xueyan-react-playground'
-import { Drawer } from 'xueyan-react-drawer'
+import { Drawer } from 'ark-drawer'
 
 const MARK1 = `
 抽屉组件库
@@ -11,7 +11,7 @@ const MARK1 = `
 
 const CODE1 = `
 import React, { useState } from 'react'
-import { Drawer } from 'xueyan-react-drawer'
+import { Drawer } from 'ark-drawer'
 
 export default function Main() {
   const [value, setValue] = useState<boolean>()

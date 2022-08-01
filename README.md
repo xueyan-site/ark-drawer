@@ -1,16 +1,18 @@
-# xueyan-react-drawer
+# ark-drawer
 
-React drawer component
+![ark-drawer](https://xueyan.site/ark-drawer/ast/project.png)
+
+`Drawer` component in `a react kit`
 
 ## Document
 
-Please see <https://xueyan.site/xueyan-react-drawer>.
+Please see <https://xueyan.site/ark-drawer>.
 
 ## Develop
 
-Please make sure that `Node` and `NPM` are installed on your computer, and `xueyan-typescript-cli` is installed globally. After switching current work path to this project root in CLI, run command `xt start doc`.
+Please make sure that `Node` and `NPM` are installed on your computer, and `sdin` is installed globally. After switching current work path to this project root in CLI, run command `sdin dev` to live-compile this project, or run command `sdin dev doc` to live-compile the documents of this project.
 
 ## Appendix
 
-Author: xueyan-site <xueyan@xueyan.site>  
-Builder: [xueyan-typescript-cli](https://github.com/xueyan-site/xueyan-typescript-cli)  
+Author: [xueyan-site](mailto://xueyan@xueyan.site)  
+Builder: [sdin](https://github.com/xueyan-site/sdin)  

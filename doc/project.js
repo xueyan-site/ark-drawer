@@ -8,7 +8,7 @@ module.exports = {
     'ast': 'pub/ast',
     'com': 'pub/com',
     'utl': 'pub/utl',
-    'xueyan-react-drawer': '../src',
+    'ark-drawer': '../src',
     'xueyan-react-style': '../node_modules/xueyan-react-style'
   },
   serve: {
