@@ -1,5 +1,5 @@
 import React from 'react'
-import { Article, Segment } from 'xueyan-react-markdown'
+import { Article, Segment } from 'ark-markdown'
 
 const MARK1 = `
 抽屉组件
@@ -35,7 +35,7 @@ interface DrawerRef {
 | direction | 方向 | \`? SlideTransitionProps['direction']\` |  |
 | onChange | 改变已选值 | \`? DrawerOnChange\` |  |
 
-> 其他类型：[SlideTransitionProps](/xueyan-react-transition?doc=0004#slidetransitionprops)、[FadeTransitionProps](/xueyan-react-transition?doc=0003#fadetransitionprops)
+> 其他类型：[SlideTransitionProps](/ark-transition?doc=0004#slidetransitionprops)、[FadeTransitionProps](/ark-transition?doc=0003#fadetransitionprops)
 
 ## DrawerOnChange
 

@@ -7,6 +7,9 @@
   "main": "dist/node",
   "types": "dist/def",
   "module": "dist/web",
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "drawer",
     "react",
@@ -17,9 +20,6 @@
     "type": "git",
     "url": "https://github.com/xueyan-site/ark-drawer.git"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "scripts": {
     "dev": "sdin dev",
     "build": "sdin build"
